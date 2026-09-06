@@ -1,6 +1,8 @@
 {
   "date": "2026-08-14",
   "published": true,
+  "total_items": 113,
+  "updated_at": "2026-08-17 08:52:22",
   "notes": "Official Rates",
   "categories": [
     {
@@ -35,6 +37,7 @@
               "active": 1,
               "price": "650",
               "price_unit": "crate",
+              "unit": "crate",
               "price_notes": ""
             },
             {
@@ -51,6 +54,7 @@
               "active": 1,
               "price": "550",
               "price_unit": "crate",
+              "unit": "crate",
               "price_notes": ""
             },
             {
@@ -67,6 +71,7 @@
               "active": 1,
               "price": "400",
               "price_unit": "crate",
+              "unit": "crate",
               "price_notes": ""
             },
             {
@@ -83,6 +88,7 @@
               "active": 1,
               "price": "750",
               "price_unit": "crate",
+              "unit": "crate",
               "price_notes": ""
             }
           ]
@@ -110,6 +116,7 @@
               "active": 1,
               "price": "1900/1950",
               "price_unit": "50 kg",
+              "unit": "50 kg",
               "price_notes": ""
             },
             {
@@ -126,6 +133,7 @@
               "active": 1,
               "price": "1850/1800",
               "price_unit": "50 kg",
+              "unit": "50 kg",
               "price_notes": ""
             },
             {
@@ -142,6 +150,7 @@
               "active": 1,
               "price": "1700/1750",
               "price_unit": "50 kg",
+              "unit": "50 kg",
               "price_notes": ""
             }
           ]
@@ -169,6 +178,7 @@
               "active": 1,
               "price": "17/16",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -185,6 +195,7 @@
               "active": 1,
               "price": "22/24",
               "price_unit": "40 kg",
+              "unit": "40 kg",
               "price_notes": ""
             },
             {
@@ -201,6 +212,7 @@
               "active": 1,
               "price": "32",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             }
           ]
@@ -228,6 +240,7 @@
               "active": 1,
               "price": "600/500",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -244,6 +257,7 @@
               "active": 1,
               "price": "180",
               "price_unit": "piece",
+              "unit": "piece",
               "price_notes": ""
             },
             {
@@ -260,6 +274,7 @@
               "active": 1,
               "price": "200/220",
               "price_unit": "piece",
+              "unit": "piece",
               "price_notes": ""
             },
             {
@@ -276,6 +291,7 @@
               "active": 1,
               "price": "50/40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -292,6 +308,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -308,6 +325,7 @@
               "active": 1,
               "price": "25",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -324,6 +342,7 @@
               "active": 1,
               "price": "40",
               "price_unit": "tray",
+              "unit": "tray",
               "price_notes": ""
             },
             {
@@ -340,6 +359,7 @@
               "active": 1,
               "price": "65",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -356,6 +376,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -372,6 +393,7 @@
               "active": 1,
               "price": "40/35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -388,6 +410,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -404,6 +427,7 @@
               "active": 1,
               "price": "90/80",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -420,6 +444,7 @@
               "active": 1,
               "price": "60/55",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -436,6 +461,7 @@
               "active": 1,
               "price": "25/30",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -452,6 +478,7 @@
               "active": 1,
               "price": "",
               "price_unit": "box",
+              "unit": "box",
               "price_notes": ""
             },
             {
@@ -468,6 +495,7 @@
               "active": 1,
               "price": "35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -484,6 +512,7 @@
               "active": 1,
               "price": "",
               "price_unit": "box",
+              "unit": "box",
               "price_notes": ""
             },
             {
@@ -500,6 +529,7 @@
               "active": 1,
               "price": "40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -516,6 +546,7 @@
               "active": 1,
               "price": "60/50",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -532,6 +563,7 @@
               "active": 1,
               "price": "40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -548,6 +580,7 @@
               "active": 1,
               "price": "60/65",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -564,6 +597,7 @@
               "active": 1,
               "price": "50",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -580,6 +614,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "piece",
+              "unit": "piece",
               "price_notes": ""
             },
             {
@@ -596,6 +631,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "piece",
+              "unit": "piece",
               "price_notes": ""
             },
             {
@@ -612,6 +648,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "piece",
+              "unit": "piece",
               "price_notes": ""
             },
             {
@@ -628,6 +665,7 @@
               "active": 1,
               "price": "",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -644,6 +682,7 @@
               "active": 1,
               "price": "8400",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -660,6 +699,7 @@
               "active": 1,
               "price": "110",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -676,6 +716,7 @@
               "active": 1,
               "price": "40/50",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -692,6 +733,7 @@
               "active": 1,
               "price": "50/55",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -708,6 +750,7 @@
               "active": 1,
               "price": "30/35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -724,6 +767,7 @@
               "active": 1,
               "price": "35/40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -740,6 +784,7 @@
               "active": 1,
               "price": "30",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -756,6 +801,7 @@
               "active": 1,
               "price": "35/30",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -772,6 +818,7 @@
               "active": 1,
               "price": "40/35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -788,6 +835,7 @@
               "active": 1,
               "price": "35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -804,6 +852,7 @@
               "active": 1,
               "price": "40/45",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -820,6 +869,7 @@
               "active": 1,
               "price": "80/85",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -836,6 +886,7 @@
               "active": 1,
               "price": "95",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -852,6 +903,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -868,6 +920,7 @@
               "active": 1,
               "price": "25/30",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -884,6 +937,7 @@
               "active": 1,
               "price": "500",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -900,6 +954,7 @@
               "active": 1,
               "price": "100",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -916,6 +971,7 @@
               "active": 1,
               "price": "38",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -932,6 +988,7 @@
               "active": 1,
               "price": "17",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -948,6 +1005,7 @@
               "active": 1,
               "price": "130",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -964,6 +1022,7 @@
               "active": 1,
               "price": "",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -980,6 +1039,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -996,6 +1056,7 @@
               "active": 1,
               "price": "70",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1012,6 +1073,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1028,6 +1090,7 @@
               "active": 1,
               "price": "50/60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1044,6 +1107,7 @@
               "active": 1,
               "price": "90",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1060,6 +1124,7 @@
               "active": 1,
               "price": "25",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1076,6 +1141,7 @@
               "active": 1,
               "price": "35/40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1092,6 +1158,7 @@
               "active": 1,
               "price": "22/25",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1108,6 +1175,7 @@
               "active": 1,
               "price": "40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1124,6 +1192,7 @@
               "active": 1,
               "price": "20",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1140,6 +1209,7 @@
               "active": 1,
               "price": "30/40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1156,6 +1226,7 @@
               "active": 1,
               "price": "30/35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1172,6 +1243,7 @@
               "active": 1,
               "price": "35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1188,6 +1260,7 @@
               "active": 1,
               "price": "55",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1204,6 +1277,7 @@
               "active": 1,
               "price": "60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1220,6 +1294,7 @@
               "active": 1,
               "price": "15/kg",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             }
           ]
@@ -1247,6 +1322,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1263,6 +1339,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1279,6 +1356,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1295,6 +1373,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1311,6 +1390,7 @@
               "active": 1,
               "price": "40/50",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1327,6 +1407,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1343,6 +1424,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1359,6 +1441,7 @@
               "active": 1,
               "price": "15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1375,6 +1458,7 @@
               "active": 1,
               "price": "10 (300-250g) 15",
               "price_unit": "bunch",
+              "unit": "bunch",
               "price_notes": ""
             },
             {
@@ -1391,6 +1475,7 @@
               "active": 1,
               "price": "30 200 150/5",
               "price_unit": "5 kg",
+              "unit": "5 kg",
               "price_notes": ""
             },
             {
@@ -1407,6 +1492,7 @@
               "active": 1,
               "price": "30 150/5",
               "price_unit": "5 kg",
+              "unit": "5 kg",
               "price_notes": ""
             }
           ]
@@ -1434,6 +1520,7 @@
               "active": 1,
               "price": "250",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1450,6 +1537,7 @@
               "active": 1,
               "price": "220",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1466,6 +1554,7 @@
               "active": 1,
               "price": "210",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             }
           ]
@@ -1504,6 +1593,7 @@
               "active": 1,
               "price": "70",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1520,6 +1610,7 @@
               "active": 1,
               "price": "70/65",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1536,6 +1627,7 @@
               "active": 1,
               "price": "550/600 (box)",
               "price_unit": "16 kg box",
+              "unit": "16 kg box",
               "price_notes": ""
             },
             {
@@ -1552,6 +1644,7 @@
               "active": 1,
               "price": "",
               "price_unit": "15 kg crate",
+              "unit": "15 kg crate",
               "price_notes": ""
             },
             {
@@ -1568,6 +1661,7 @@
               "active": 1,
               "price": "45/50",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1584,6 +1678,7 @@
               "active": 1,
               "price": "80/75",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1600,6 +1695,7 @@
               "active": 1,
               "price": "80/85",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             }
           ]
@@ -1627,6 +1723,7 @@
               "active": 1,
               "price": "70/95",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1643,6 +1740,7 @@
               "active": 1,
               "price": "",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1659,6 +1757,7 @@
               "active": 1,
               "price": "",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1675,6 +1774,7 @@
               "active": 1,
               "price": "",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1691,6 +1791,7 @@
               "active": 1,
               "price": "",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1707,6 +1808,7 @@
               "active": 1,
               "price": "50/60",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1723,6 +1825,7 @@
               "active": 1,
               "price": "70/80",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             }
           ]
@@ -1750,6 +1853,7 @@
               "active": 1,
               "price": "Nill",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1766,6 +1870,7 @@
               "active": 1,
               "price": "600",
               "price_unit": "12 kg box",
+              "unit": "12 kg box",
               "price_notes": ""
             },
             {
@@ -1782,6 +1887,7 @@
               "active": 1,
               "price": "1300 (20kg box)",
               "price_unit": "20 kg box",
+              "unit": "20 kg box",
               "price_notes": ""
             },
             {
@@ -1798,6 +1904,7 @@
               "active": 1,
               "price": "45/55",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1814,6 +1921,7 @@
               "active": 1,
               "price": "70/75",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1830,6 +1938,7 @@
               "active": 1,
               "price": "80/85",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1846,6 +1955,7 @@
               "active": 1,
               "price": "30/35",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1862,6 +1972,7 @@
               "active": 1,
               "price": "40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1878,6 +1989,7 @@
               "active": 1,
               "price": "40",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1894,6 +2006,7 @@
               "active": 1,
               "price": "62/67",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1910,6 +2023,7 @@
               "active": 1,
               "price": "10/12",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             },
             {
@@ -1926,6 +2040,7 @@
               "active": 1,
               "price": "10/12",
               "price_unit": "kg",
+              "unit": "kg",
               "price_notes": ""
             }
           ]

@@ -208,6 +208,7 @@ const buildTree = (catId) => {
           display_order: p.display_order,
           active: p.active,
           price: pInfo ? pInfo.price : '',
+          price_unit: pInfo ? pInfo.unit : p.default_unit,
           unit: pInfo ? pInfo.unit : p.default_unit,
           price_notes: pInfo ? pInfo.notes : '',
         };
@@ -229,6 +230,8 @@ const buildTree = (catId) => {
 const dayPayload = {
   date: targetDate,
   published: true,
+  total_items: catalog.products.length,
+  updated_at: new Date().toISOString(),
   notes: `Official Koyambedu wholesale auction rates for ${targetDate}`,
   categories: [
     {

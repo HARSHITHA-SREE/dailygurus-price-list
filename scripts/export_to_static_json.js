@@ -88,8 +88,12 @@ dump.daily_prices.forEach(dp => {
 
 // Map price_dates metadata
 const dateNotes = new Map();
+const dateUpdated = new Map();
 dump.price_dates.forEach(pd => {
   dateNotes.set(pd.price_date, pd.notes || '');
+  if (pd.updated_at) {
+    dateUpdated.set(pd.price_date, pd.updated_at);
+  }
 });
 
 const fallbackNotes = {
@@ -127,6 +131,20 @@ for (const [dateStr, rows] of pricesByDate.entries()) {
     }
   });
 
+  // Ensure all 113 catalog products have entries in priceMapDict
+  catalogProducts.forEach(prod => {
+    if (!priceMapDict[String(prod.numericId)]) {
+      const emptyEntry = {
+        price: '',
+        unit: prod.default_unit,
+        notes: ''
+      };
+      priceMapByNumericId.set(prod.numericId, emptyEntry);
+      priceMapDict[String(prod.numericId)] = emptyEntry;
+      priceMapDict[prod.id] = emptyEntry;
+    }
+  });
+
   // Build full structured categories for fast direct rendering
   const vegCategory = catalog.categories.find(c => c.category_type === 'veg');
   const fruitCategory = catalog.categories.find(c => c.category_type === 'fruit');
@@ -156,6 +174,7 @@ for (const [dateStr, rows] of pricesByDate.entries()) {
             active: p.active,
             price: pInfo ? pInfo.price : '',
             price_unit: pInfo ? pInfo.unit : p.default_unit,
+            unit: pInfo ? pInfo.unit : p.default_unit,
             price_notes: pInfo ? pInfo.notes : ''
           };
         });
@@ -176,6 +195,8 @@ for (const [dateStr, rows] of pricesByDate.entries()) {
   const dayPayload = {
     date: dateStr,
     published: true,
+    total_items: catalogProducts.length,
+    updated_at: dateUpdated.get(dateStr) || new Date().toISOString(),
     notes: dateNotes.get(dateStr) || fallbackNotes[dateStr] || `Historical rates for ${dateStr}`,
     categories: [
       {
