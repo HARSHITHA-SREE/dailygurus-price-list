@@ -6,7 +6,7 @@ import { HistoryView } from '@/components/HistoryView';
 export async function generateMetadata({
   searchParams,
 }: {
-  searchParams?: { date?: string };
+  searchParams?: { date?: string; product?: string; from?: string; to?: string };
 }): Promise<Metadata> {
   const date = searchParams?.date || '2026-08-14';
   return {
@@ -18,7 +18,7 @@ export async function generateMetadata({
 export default async function HistoryPage({
   searchParams,
 }: {
-  searchParams?: { date?: string };
+  searchParams?: { date?: string; product?: string; from?: string; to?: string };
 }) {
   const requestedDate = searchParams?.date;
   const publishedDates = await getAllPublishedDates();
@@ -32,6 +32,9 @@ export default async function HistoryPage({
       dateInfo={pricePayload.dateInfo}
       stats={pricePayload.stats}
       publishedDates={publishedDates}
+      initialProductId={searchParams?.product}
+      initialFrom={searchParams?.from}
+      initialTo={searchParams?.to}
     />
   );
 }

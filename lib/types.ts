@@ -61,3 +61,29 @@ export interface PriceStats {
   fruit_count: number;
   total_items: number;
 }
+
+// === Price Trend Graph Types ===
+
+export interface ParsedPrice {
+  type: 'single' | 'range' | 'ungraphable';
+  min?: number;
+  max?: number;
+  label?: string;
+  unit?: string;
+}
+
+export interface TrendDataPoint {
+  date: string;
+  raw: string;
+  type: 'single' | 'range' | 'ungraphable';
+  min?: number;
+  max?: number;
+  unit?: string;
+}
+
+export interface TrendProduct {
+  id: number;
+  name: string;
+  tamil_name: string;
+  default_unit: string;
+}

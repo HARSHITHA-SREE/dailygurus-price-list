@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { CategorizedData, PriceStats, PriceDateInfo } from '@/lib/types';
 import { formatDateLong, formatDateShort, formatPriceString } from '@/lib/price-formatter';
 import { ProduceThumbnail } from '@/lib/produce-icons';
+import { PriceTrendChart } from '@/components/PriceTrendChart';
 
 interface HistoryViewProps {
   initialData: CategorizedData;
@@ -14,6 +15,9 @@ interface HistoryViewProps {
   dateInfo: PriceDateInfo;
   stats: PriceStats;
   publishedDates: Array<{ price_date: string; item_count: number; is_published: number; notes: string }>;
+  initialProductId?: string;
+  initialFrom?: string;
+  initialTo?: string;
 }
 
 export const HistoryView: React.FC<HistoryViewProps> = ({
@@ -23,6 +27,9 @@ export const HistoryView: React.FC<HistoryViewProps> = ({
   dateInfo,
   stats,
   publishedDates,
+  initialProductId,
+  initialFrom,
+  initialTo,
 }) => {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState('');
@@ -234,6 +241,14 @@ export const HistoryView: React.FC<HistoryViewProps> = ({
               })}
             </div>
           </div>
+
+          {/* Historical Price Trend Graph */}
+          <PriceTrendChart
+            publishedDates={publishedDates}
+            initialProductId={initialProductId}
+            initialFrom={initialFrom}
+            initialTo={initialTo}
+          />
 
           {/* Selected Date Snapshot Header */}
           <div
