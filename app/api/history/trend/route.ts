@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase/admin';
+import { catalog, getAvailableDates, getDayPriceData } from '@/lib/data';
 import { parsePriceForGraph } from '@/lib/price-parser';
 
 export const dynamic = 'force-dynamic';
@@ -18,65 +18,59 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // Fetch product info
-    const { data: product, error: prodError } = await supabaseAdmin
-      .from('products')
-      .select('id, name, tamil_name, default_unit, icon, image_url')
-      .eq('id', parseInt(productId, 10))
-      .single();
+    // Find product in catalog by numericId or slug id
+    const numericId = parseInt(productId, 10);
+    const product = catalog.products.find(
+      p => (!isNaN(numericId) && p.numericId === numericId) || p.id === productId || String(p.numericId) === productId
+    );
 
-    if (prodError || !product) {
+    if (!product) {
       return NextResponse.json(
         { success: false, error: 'Product not found' },
         { status: 404 }
       );
     }
 
-    // Build query for daily prices — only for published dates
-    let query = supabaseAdmin
-      .from('daily_prices')
-      .select('price_date, price, unit, price_notes')
-      .eq('product_id', parseInt(productId, 10))
-      .order('price_date', { ascending: true });
+    // Get sorted dates ascending (earliest to latest)
+    const allDates = getAvailableDates().sort((a, b) => a.localeCompare(b));
+    const filteredDates = allDates.filter(d => {
+      if (fromDate && d < fromDate) return false;
+      if (toDate && d > toDate) return false;
+      return true;
+    });
 
-    if (fromDate) {
-      query = query.gte('price_date', fromDate);
-    }
-    if (toDate) {
-      query = query.lte('price_date', toDate);
-    }
+    const data = filteredDates.map(dateStr => {
+      const dayData = getDayPriceData(dateStr);
+      let rawPrice = '';
+      let priceUnit = product.default_unit;
 
-    const { data: pricesData, error: pricesError } = await query;
+      if (dayData?.prices) {
+        const pInfo = dayData.prices[product.id] || dayData.prices[String(product.numericId)];
+        if (pInfo) {
+          rawPrice = typeof pInfo === 'string' ? pInfo : (pInfo.price || '');
+          if (typeof pInfo === 'object' && pInfo.unit) {
+            priceUnit = pInfo.unit;
+          }
+        }
+      }
 
-    if (pricesError) throw pricesError;
+      const parsed = parsePriceForGraph(rawPrice, priceUnit);
 
-    // Filter to only published dates
-    const { data: publishedDates } = await supabaseAdmin
-      .from('price_dates')
-      .select('price_date')
-      .eq('is_published', 1);
-
-    const publishedSet = new Set((publishedDates || []).map(d => d.price_date));
-
-    // Parse each price and build trend data
-    const data = (pricesData || [])
-      .filter(row => publishedSet.has(row.price_date))
-      .map(row => {
-        const parsed = parsePriceForGraph(row.price, row.unit || product.default_unit);
-        return {
-          date: row.price_date,
-          raw: row.price || '',
-          type: parsed.type,
-          min: parsed.min,
-          max: parsed.max,
-          unit: parsed.unit || row.unit || product.default_unit,
-        };
-      });
+      return {
+        date: dateStr,
+        raw: rawPrice,
+        type: parsed.type,
+        min: parsed.min,
+        max: parsed.max,
+        unit: parsed.unit || priceUnit,
+      };
+    });
 
     return NextResponse.json({
       success: true,
       product: {
-        id: product.id,
+        id: product.numericId,
+        slug: product.id,
         name: product.name,
         tamil_name: product.tamil_name,
         default_unit: product.default_unit,
@@ -84,7 +78,7 @@ export async function GET(request: NextRequest) {
       data,
     });
   } catch (error: any) {
-    console.error('Error fetching trend data:', error);
+    console.error('Error generating static trend data:', error);
     return NextResponse.json(
       { success: false, error: 'Failed to fetch trend data' },
       { status: 500 }

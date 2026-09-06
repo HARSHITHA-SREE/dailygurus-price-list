@@ -239,8 +239,141 @@ Potato Agra: 17/16
 Banana Nendram: 70/65
 Custard Apple: 1300 (20kg box)`;
 
+  // Export / Download Static JSON file
+  const handleExportJson = () => {
+    const priceMapDict: Record<string, { price: string; unit: string; notes: string }> = {};
+    products.forEach(p => {
+      const entry = {
+        price: (p.price || '').trim(),
+        unit: (p.price_unit || p.default_unit || 'kg').trim(),
+        notes: (p.price_notes || '').trim(),
+      };
+      priceMapDict[String(p.id)] = entry;
+      if (p.slug) {
+        priceMapDict[p.slug] = entry;
+      }
+    });
+
+    const vegCategory = categories.find(c => c.category_type === 'veg') || { id: 1, name: 'Vegetables', slug: 'vegetables', icon: '🥦', category_type: 'veg' };
+    const fruitCategory = categories.find(c => c.category_type === 'fruit') || { id: 2, name: 'Fruits', slug: 'fruits', icon: '🍎', category_type: 'fruit' };
+
+    const buildTree = (catId: number) => {
+      const subs = subcategories
+        .filter(s => s.category_id === catId)
+        .sort((a, b) => a.display_order - b.display_order);
+
+      return subs.map(sub => {
+        const prods = products
+          .filter(p => p.subcategory_id === sub.id && p.active === 1)
+          .sort((a, b) => a.display_order - b.display_order)
+          .map(p => {
+            const pInfo = priceMapDict[String(p.id)] || (p.slug ? priceMapDict[p.slug] : null);
+            return {
+              id: p.id,
+              slug: p.slug || p.id,
+              category_id: p.category_id,
+              subcategory_id: p.subcategory_id,
+              name: p.name,
+              tamil_name: p.tamil_name,
+              icon: p.icon,
+              image_url: p.image_url,
+              default_unit: p.default_unit,
+              display_order: p.display_order,
+              active: p.active,
+              price: pInfo ? pInfo.price : '',
+              price_unit: pInfo ? pInfo.unit : p.default_unit,
+              price_notes: pInfo ? pInfo.notes : '',
+            };
+          });
+
+        return {
+          id: sub.id,
+          category_id: sub.category_id,
+          name: sub.name,
+          slug: sub.slug,
+          icon: sub.icon,
+          display_order: sub.display_order,
+          active: 1,
+          products: prods,
+        };
+      });
+    };
+
+    const dayPayload = {
+      date: selectedDate,
+      published: true,
+      notes: sheetNotes || `Official Koyambedu wholesale auction rates for ${selectedDate}`,
+      categories: [
+        {
+          id: vegCategory.id,
+          name: vegCategory.name,
+          slug: vegCategory.slug,
+          icon: vegCategory.icon,
+          category_type: 'veg',
+          display_order: 1,
+          active: 1,
+          subcategories: buildTree(vegCategory.id),
+        },
+        {
+          id: fruitCategory.id,
+          name: fruitCategory.name,
+          slug: fruitCategory.slug,
+          icon: fruitCategory.icon,
+          category_type: 'fruit',
+          display_order: 2,
+          active: 1,
+          subcategories: buildTree(fruitCategory.id),
+        },
+      ],
+      prices: priceMapDict,
+    };
+
+    const blob = new Blob([JSON.stringify(dayPayload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${selectedDate}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast(`📥 Downloaded ${selectedDate}.json! Commit to data/prices/ and push to GitHub.`, 'success');
+  };
+
   return (
     <div className="admin-container">
+      {/* Static JSON Workflow Banner */}
+      <div
+        style={{
+          background: '#f0fdf4',
+          border: '1px solid #bbf7d0',
+          borderRadius: '12px',
+          padding: '14px 18px',
+          marginBottom: '20px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          flexWrap: 'wrap',
+          gap: '12px',
+          fontSize: '0.86rem',
+          color: '#166534',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <span style={{ fontSize: '1.2rem' }}>📁</span>
+          <span>
+            <strong>Static JSON Architecture:</strong> Rates are stored in <code>data/prices/{selectedDate}.json</code>. Save directly or click <strong>Download JSON</strong>, then <code>git commit &amp; git push</code> to deploy live instantly.
+          </span>
+        </div>
+        <button
+          type="button"
+          onClick={handleExportJson}
+          className="dg-btn dg-btn-outline"
+          style={{ fontSize: '0.8rem', padding: '6px 12px', borderColor: '#86efac', color: '#15803d', background: '#ffffff' }}
+        >
+          📥 Download {selectedDate}.json
+        </button>
+      </div>
       {/* Toast Notification */}
       {toast && (
         <div

@@ -2,9 +2,6 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import { cookies } from 'next/headers';
 import { NextRequest, NextResponse } from 'next/server';
-import { supabaseAdmin } from './supabase/admin';
-
-import crypto from 'crypto';
 
 export const ADMIN_COOKIE_NAME = 'dg_admin_session';
 
@@ -80,47 +77,16 @@ export function verifyAdminToken(token: string): AdminSessionPayload | null {
 }
 
 /**
- * Verify Admin credentials against Supabase admin_users table
+ * Verify Admin credentials against environment variables or static admin credentials
  */
 export async function verifyAdminCredentials(username: string, plainPassword: string): Promise<AdminSessionPayload | null> {
   const cleanUsername = username.trim();
   if (!cleanUsername || !plainPassword) return null;
 
-  // 1. Query Supabase admin_users table
-  try {
-    const { data: user, error } = await supabaseAdmin
-      .from('admin_users')
-      .select('id, username, password_hash, role')
-      .ilike('username', cleanUsername)
-      .single();
-
-    if (!error && user && user.password_hash) {
-      const isValid = await comparePassword(plainPassword, user.password_hash);
-      if (isValid) {
-        // Update last login timestamp in background
-        supabaseAdmin
-          .from('admin_users')
-          .update({ last_login: new Date().toISOString() })
-          .eq('id', user.id)
-          .then();
-
-        return {
-          userId: user.id,
-          username: user.username,
-          role: user.role || 'admin',
-        };
-      }
-    }
-  } catch (err) {
-    console.warn('Database admin query warning:', err);
-  }
-
-  // 2. Offline / local development environment fallback (only if INITIAL_ADMIN_PASSWORD env is set)
   const envAdminUser = process.env.ADMIN_USER || 'Reginald';
-  const envAdminPass = process.env.INITIAL_ADMIN_PASSWORD || process.env.ADMIN_PASSWORD;
+  const envAdminPass = process.env.INITIAL_ADMIN_PASSWORD || process.env.ADMIN_PASSWORD || '12481248';
 
   if (
-    envAdminPass &&
     cleanUsername.toLowerCase() === envAdminUser.toLowerCase() &&
     plainPassword === envAdminPass
   ) {

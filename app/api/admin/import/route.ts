@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase/admin';
 import { getAdminSessionFromRequest } from '@/lib/auth';
 import { parseWhatsAppPriceList } from '@/lib/whatsapp-parser';
+import { catalog } from '@/lib/data';
 import { Product } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
@@ -23,20 +23,24 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    let catalog: Product[] = customCatalog;
+    let targetCatalog: Product[] = customCatalog;
 
-    if (!catalog || !Array.isArray(catalog) || catalog.length === 0) {
-      const { data: productsData, error } = await supabaseAdmin
-        .from('products')
-        .select('*')
-        .eq('active', 1)
-        .order('display_order', { ascending: true });
-
-      if (error) throw error;
-      catalog = productsData || [];
+    if (!targetCatalog || !Array.isArray(targetCatalog) || targetCatalog.length === 0) {
+      targetCatalog = catalog.products.map(p => ({
+        id: p.numericId,
+        category_id: p.category_id,
+        subcategory_id: p.subcategory_id,
+        name: p.name,
+        tamil_name: p.tamil_name,
+        image_url: p.image_url,
+        icon: p.icon,
+        default_unit: p.default_unit,
+        display_order: p.display_order,
+        active: p.active,
+      }));
     }
 
-    const parseResult = parseWhatsAppPriceList(text, catalog);
+    const parseResult = parseWhatsAppPriceList(text, targetCatalog);
 
     return NextResponse.json({
       success: true,

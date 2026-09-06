@@ -10,8 +10,6 @@
     "migrate:supabase": "node scripts/migrate_sqlite_to_supabase.js"
   },
   "dependencies": {
-    "@supabase/ssr": "^0.5.2",
-    "@supabase/supabase-js": "^2.49.1",
     "bcryptjs": "^3.0.2",
     "chart.js": "^4.5.1",
     "jsonwebtoken": "^9.0.2",

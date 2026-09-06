@@ -1,40 +1,42 @@
 import { NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase/admin';
+import { catalog } from '@/lib/data';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
-    const { data: products, error } = await supabaseAdmin
-      .from('products')
-      .select('id, name, tamil_name, default_unit, category_id, subcategory_id')
-      .eq('active', 1)
-      .order('category_id', { ascending: true })
-      .order('display_order', { ascending: true });
+    const products = catalog.products
+      .filter(p => p.active === 1)
+      .map(p => ({
+        id: p.numericId,
+        slug: p.id,
+        name: p.name,
+        tamil_name: p.tamil_name,
+        default_unit: p.default_unit,
+        category_id: p.category_id,
+        subcategory_id: p.subcategory_id,
+      }));
 
-    if (error) throw error;
+    const subcategories = catalog.subcategories.map(s => ({
+      id: s.id,
+      name: s.name,
+      category_id: s.category_id,
+    }));
 
-    // Also fetch subcategory names for grouping in the dropdown
-    const { data: subcategories } = await supabaseAdmin
-      .from('subcategories')
-      .select('id, name, category_id')
-      .eq('active', 1)
-      .order('display_order', { ascending: true });
-
-    const { data: categories } = await supabaseAdmin
-      .from('categories')
-      .select('id, name, category_type')
-      .eq('active', 1)
-      .order('display_order', { ascending: true });
+    const categories = catalog.categories.map(c => ({
+      id: c.id,
+      name: c.name,
+      category_type: c.category_type,
+    }));
 
     return NextResponse.json({
       success: true,
-      products: products || [],
-      subcategories: subcategories || [],
-      categories: categories || [],
+      products,
+      subcategories,
+      categories,
     });
   } catch (error: any) {
-    console.error('Error fetching products for trend:', error);
+    console.error('Error fetching static products for trend:', error);
     return NextResponse.json(
       { success: false, error: 'Failed to fetch products' },
       { status: 500 }

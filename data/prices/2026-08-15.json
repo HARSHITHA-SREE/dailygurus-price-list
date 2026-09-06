@@ -1,0 +1,3058 @@
+{
+  "date": "2026-08-15",
+  "published": true,
+  "notes": "Day 2 Market Rates",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Vegetables",
+      "slug": "vegetables",
+      "icon": "🥦",
+      "category_type": "veg",
+      "display_order": 1,
+      "active": 1,
+      "subcategories": [
+        {
+          "id": 1,
+          "category_id": 1,
+          "name": "Tomato",
+          "slug": "tomato",
+          "icon": "🍅",
+          "display_order": 1,
+          "active": 1,
+          "products": [
+            {
+              "id": 1,
+              "slug": "tomato-big-crates-premium",
+              "category_id": 1,
+              "subcategory_id": 1,
+              "name": "Tomato big crates (premium)",
+              "tamil_name": "தக்காளி பெரிய கிரேட் (பிரீமியம்)",
+              "icon": "tomato.svg",
+              "image_url": "assets/images/produce/tomato.svg",
+              "default_unit": "crate",
+              "display_order": 1,
+              "active": 1,
+              "price": "",
+              "price_unit": "crate",
+              "price_notes": ""
+            },
+            {
+              "id": 2,
+              "slug": "tomato-local-big-crates",
+              "category_id": 1,
+              "subcategory_id": 1,
+              "name": "Tomato (local) big crates",
+              "tamil_name": "நாட்டு தக்காளி பெரிய கிரேட்",
+              "icon": "tomato.svg",
+              "image_url": "assets/images/produce/tomato.svg",
+              "default_unit": "crate",
+              "display_order": 2,
+              "active": 1,
+              "price": "550",
+              "price_unit": "crate",
+              "price_notes": ""
+            },
+            {
+              "id": 3,
+              "slug": "tomato-paper-mixed-size",
+              "category_id": 1,
+              "subcategory_id": 1,
+              "name": "Tomato Paper-Mixed Size",
+              "tamil_name": "தக்காளி பேப்பர் கலவை",
+              "icon": "tomato.svg",
+              "image_url": "assets/images/produce/tomato.svg",
+              "default_unit": "crate",
+              "display_order": 3,
+              "active": 1,
+              "price": "400",
+              "price_unit": "crate",
+              "price_notes": ""
+            },
+            {
+              "id": 4,
+              "slug": "tomato-hyd-standard-big",
+              "category_id": 1,
+              "subcategory_id": 1,
+              "name": "Tomato (hyd) - Standard (Big)",
+              "tamil_name": "ஹைதராபாத் தக்காளி (பெரியது)",
+              "icon": "tomato.svg",
+              "image_url": "assets/images/produce/tomato.svg",
+              "default_unit": "crate",
+              "display_order": 4,
+              "active": 1,
+              "price": "750",
+              "price_unit": "crate",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 1,
+          "name": "Onion",
+          "slug": "onion",
+          "icon": "🧅",
+          "display_order": 2,
+          "active": 1,
+          "products": [
+            {
+              "id": 5,
+              "slug": "nashik-new-big-60",
+              "category_id": 1,
+              "subcategory_id": 2,
+              "name": "Nashik new - Big (60+)",
+              "tamil_name": "நாசிக் புதிய வெங்காயம் (60+)",
+              "icon": "onion.svg",
+              "image_url": "assets/images/produce/onion.svg",
+              "default_unit": "50 kg",
+              "display_order": 5,
+              "active": 1,
+              "price": "1900/1950",
+              "price_unit": "50 kg",
+              "price_notes": ""
+            },
+            {
+              "id": 6,
+              "slug": "onion-nashik-new-50",
+              "category_id": 1,
+              "subcategory_id": 2,
+              "name": "Onion Nashik new (50+)",
+              "tamil_name": "நாசிக் புதிய வெங்காயம் (50+)",
+              "icon": "onion.svg",
+              "image_url": "assets/images/produce/onion.svg",
+              "default_unit": "50 kg",
+              "display_order": 6,
+              "active": 1,
+              "price": "1850/1800",
+              "price_unit": "50 kg",
+              "price_notes": ""
+            },
+            {
+              "id": 7,
+              "slug": "onion-nashik-new-45",
+              "category_id": 1,
+              "subcategory_id": 2,
+              "name": "Onion Nashik new (45+)",
+              "tamil_name": "நாசிக் புதிய வெங்காயம் (45+)",
+              "icon": "onion.svg",
+              "image_url": "assets/images/produce/onion.svg",
+              "default_unit": "50 kg",
+              "display_order": 7,
+              "active": 1,
+              "price": "1700/1750",
+              "price_unit": "50 kg",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 1,
+          "name": "Potato",
+          "slug": "potato",
+          "icon": "🥔",
+          "display_order": 3,
+          "active": 1,
+          "products": [
+            {
+              "id": 8,
+              "slug": "potato-agra",
+              "category_id": 1,
+              "subcategory_id": 3,
+              "name": "Potato Agra",
+              "tamil_name": "ஆக்ரா உருளைக்கிழங்கு",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "kg",
+              "display_order": 8,
+              "active": 1,
+              "price": "17/16",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 9,
+              "slug": "potato-jothi-40-kg-red",
+              "category_id": 1,
+              "subcategory_id": 3,
+              "name": "Potato Jothi (40 kg) red",
+              "tamil_name": "ஜோதி சிவப்பு உருளைக்கிழங்கு (40 கிலோ)",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "40 kg",
+              "display_order": 9,
+              "active": 1,
+              "price": "22/24",
+              "price_unit": "40 kg",
+              "price_notes": ""
+            },
+            {
+              "id": 10,
+              "slug": "potato-hasan",
+              "category_id": 1,
+              "subcategory_id": 3,
+              "name": "Potato Hasan",
+              "tamil_name": "ஹாசன் உருளைக்கிழங்கு",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "kg",
+              "display_order": 10,
+              "active": 1,
+              "price": "32",
+              "price_unit": "kg",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "category_id": 1,
+          "name": "Other Vegetables",
+          "slug": "other-vegetables",
+          "icon": "🥦",
+          "display_order": 4,
+          "active": 1,
+          "products": [
+            {
+              "id": 11,
+              "slug": "cabbage-local",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Cabbage local",
+              "tamil_name": "நாட்டு முட்டைக்கோஸ்",
+              "icon": "cabbage.svg",
+              "image_url": "assets/images/produce/cabbage.svg",
+              "default_unit": "kg",
+              "display_order": 11,
+              "active": 1,
+              "price": "600/500",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 12,
+              "slug": "cauliflower-small",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Cauliflower small",
+              "tamil_name": "காலிஃபிளவர் (சிறியது)",
+              "icon": "cauliflower.svg",
+              "image_url": "assets/images/produce/cauliflower.svg",
+              "default_unit": "piece",
+              "display_order": 12,
+              "active": 1,
+              "price": "180",
+              "price_unit": "piece",
+              "price_notes": ""
+            },
+            {
+              "id": 13,
+              "slug": "cauliflower-big",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Cauliflower Big",
+              "tamil_name": "காலிஃபிளவர் (பெரியது)",
+              "icon": "cauliflower.svg",
+              "image_url": "assets/images/produce/cauliflower.svg",
+              "default_unit": "piece",
+              "display_order": 13,
+              "active": 1,
+              "price": "200/220",
+              "price_unit": "piece",
+              "price_notes": ""
+            },
+            {
+              "id": 14,
+              "slug": "cucumber-indian",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Cucumber Indian",
+              "tamil_name": "நாட்டு வெள்ளரிக்காய்",
+              "icon": "cucumber.svg",
+              "image_url": "assets/images/produce/cucumber.svg",
+              "default_unit": "kg",
+              "display_order": 14,
+              "active": 1,
+              "price": "50/40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 15,
+              "slug": "cucumber-english",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Cucumber English",
+              "tamil_name": "சாலாட் வெள்ளரிக்காய் (இங்கிலீஷ்)",
+              "icon": "cucumber.svg",
+              "image_url": "assets/images/produce/cucumber.svg",
+              "default_unit": "kg",
+              "display_order": 15,
+              "active": 1,
+              "price": "60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 16,
+              "slug": "ladies-finger",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ladies finger",
+              "tamil_name": "வெண்டைக்காய்",
+              "icon": "ladies-finger.svg",
+              "image_url": "assets/images/produce/ladies-finger.svg",
+              "default_unit": "kg",
+              "display_order": 16,
+              "active": 1,
+              "price": "25",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 17,
+              "slug": "ladies-finger-tray",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ladies finger - Tray",
+              "tamil_name": "வெண்டைக்காய் (டிரே)",
+              "icon": "ladies-finger.svg",
+              "image_url": "assets/images/produce/ladies-finger.svg",
+              "default_unit": "tray",
+              "display_order": 17,
+              "active": 1,
+              "price": "40",
+              "price_unit": "tray",
+              "price_notes": ""
+            },
+            {
+              "id": 18,
+              "slug": "beans-avarakai",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beans (Avarakai)",
+              "tamil_name": "அவரைக்காய்",
+              "icon": "beans.svg",
+              "image_url": "assets/images/produce/beans.svg",
+              "default_unit": "kg",
+              "display_order": 18,
+              "active": 1,
+              "price": "65",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 19,
+              "slug": "beans-chikadi-kai",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beans (Chikadi kai)",
+              "tamil_name": "சிக்கடிக்காய் / பீன்ஸ்",
+              "icon": "beans.svg",
+              "image_url": "assets/images/produce/beans.svg",
+              "default_unit": "kg",
+              "display_order": 19,
+              "active": 1,
+              "price": "60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 20,
+              "slug": "beans-cluster",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beans (Cluster)",
+              "tamil_name": "கொத்தவரங்காய்",
+              "icon": "beans.svg",
+              "image_url": "assets/images/produce/beans.svg",
+              "default_unit": "kg",
+              "display_order": 20,
+              "active": 1,
+              "price": "40/35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 21,
+              "slug": "beans-cow-pea",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beans (Cow pea)",
+              "tamil_name": "காராமணி / தட்டப்பயறு",
+              "icon": "beans.svg",
+              "image_url": "assets/images/produce/beans.svg",
+              "default_unit": "kg",
+              "display_order": 21,
+              "active": 1,
+              "price": "60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 22,
+              "slug": "beans-haricot",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beans (Haricot)",
+              "tamil_name": "ஹரிக்காட் பீன்ஸ்",
+              "icon": "beans.svg",
+              "image_url": "assets/images/produce/beans.svg",
+              "default_unit": "kg",
+              "display_order": 22,
+              "active": 1,
+              "price": "90/80",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 23,
+              "slug": "beans-local",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beans (Local)",
+              "tamil_name": "நாட்டு பீன்ஸ்",
+              "icon": "beans.svg",
+              "image_url": "assets/images/produce/beans.svg",
+              "default_unit": "kg",
+              "display_order": 23,
+              "active": 1,
+              "price": "60/55",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 24,
+              "slug": "brinjal-small-purple-stripes",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Brinjal small (Purple Stripes)",
+              "tamil_name": "வரி கத்தரிக்காய் (சிறியது)",
+              "icon": "brinjal.svg",
+              "image_url": "assets/images/produce/brinjal.svg",
+              "default_unit": "kg",
+              "display_order": 24,
+              "active": 1,
+              "price": "25/30",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 25,
+              "slug": "brinjal-small-purple-stripes-box",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Brinjal small (Purple Stripes box)",
+              "tamil_name": "வரி கத்தரிக்காய் (பாக்ஸ்)",
+              "icon": "brinjal.svg",
+              "image_url": "assets/images/produce/brinjal.svg",
+              "default_unit": "box",
+              "display_order": 25,
+              "active": 1,
+              "price": "",
+              "price_unit": "box",
+              "price_notes": ""
+            },
+            {
+              "id": 26,
+              "slug": "brinjal-ujjala",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Brinjal Ujjala",
+              "tamil_name": "உஜ்ஜாலா கத்தரிக்காய்",
+              "icon": "brinjal.svg",
+              "image_url": "assets/images/produce/brinjal.svg",
+              "default_unit": "kg",
+              "display_order": 26,
+              "active": 1,
+              "price": "35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 27,
+              "slug": "brinjal-ujjala-box",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Brinjal Ujjala box",
+              "tamil_name": "உஜ்ஜாலா கத்தரிக்காய் (பாக்ஸ்)",
+              "icon": "brinjal.svg",
+              "image_url": "assets/images/produce/brinjal.svg",
+              "default_unit": "box",
+              "display_order": 27,
+              "active": 1,
+              "price": "",
+              "price_unit": "box",
+              "price_notes": ""
+            },
+            {
+              "id": 28,
+              "slug": "capsicum-green",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Capsicum (green)",
+              "tamil_name": "பச்சை குடைமிளகாய்",
+              "icon": "capsicum.svg",
+              "image_url": "assets/images/produce/capsicum.svg",
+              "default_unit": "kg",
+              "display_order": 28,
+              "active": 1,
+              "price": "40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 29,
+              "slug": "chilli-bajji",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Chilli (bajji)",
+              "tamil_name": "பஜ்ஜி மிளகாய்",
+              "icon": "chilli.svg",
+              "image_url": "assets/images/produce/chilli.svg",
+              "default_unit": "kg",
+              "display_order": 29,
+              "active": 1,
+              "price": "60/50",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 30,
+              "slug": "chilli-long",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Chilli long",
+              "tamil_name": "நீள பச்சை மிளகாய்",
+              "icon": "chilli.svg",
+              "image_url": "assets/images/produce/chilli.svg",
+              "default_unit": "kg",
+              "display_order": 30,
+              "active": 1,
+              "price": "40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 31,
+              "slug": "chilli-v-kota",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Chilli (V kota)",
+              "tamil_name": "வி.கோட்டா மிளகாய்",
+              "icon": "chilli.svg",
+              "image_url": "assets/images/produce/chilli.svg",
+              "default_unit": "kg",
+              "display_order": 31,
+              "active": 1,
+              "price": "60/65",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 32,
+              "slug": "chilli-short",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Chilli (short)",
+              "tamil_name": "குண்டு பச்சை மிளகாய்",
+              "icon": "chilli.svg",
+              "image_url": "assets/images/produce/chilli.svg",
+              "default_unit": "kg",
+              "display_order": 32,
+              "active": 1,
+              "price": "50",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 33,
+              "slug": "coconut-medium-500600g",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Coconut medium (500/600g)",
+              "tamil_name": "தேங்காய் (500-600 கிராம்)",
+              "icon": "coconut.svg",
+              "image_url": "assets/images/produce/coconut.svg",
+              "default_unit": "piece",
+              "display_order": 33,
+              "active": 1,
+              "price": "60",
+              "price_unit": "piece",
+              "price_notes": ""
+            },
+            {
+              "id": 34,
+              "slug": "coconut-medium-400500g",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Coconut medium (400/500g)",
+              "tamil_name": "தேங்காய் (400-500 கிராம்)",
+              "icon": "coconut.svg",
+              "image_url": "assets/images/produce/coconut.svg",
+              "default_unit": "piece",
+              "display_order": 34,
+              "active": 1,
+              "price": "60",
+              "price_unit": "piece",
+              "price_notes": ""
+            },
+            {
+              "id": 35,
+              "slug": "coconut-medium-250g",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Coconut medium (250g)",
+              "tamil_name": "தேங்காய் (250 கிராம்)",
+              "icon": "coconut.svg",
+              "image_url": "assets/images/produce/coconut.svg",
+              "default_unit": "piece",
+              "display_order": 35,
+              "active": 1,
+              "price": "60",
+              "price_unit": "piece",
+              "price_notes": ""
+            },
+            {
+              "id": 36,
+              "slug": "ginger-new",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ginger new",
+              "tamil_name": "புதிய இஞ்சி",
+              "icon": "ginger.svg",
+              "image_url": "assets/images/produce/ginger.svg",
+              "default_unit": "kg",
+              "display_order": 36,
+              "active": 1,
+              "price": "",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 37,
+              "slug": "ginger-old",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ginger old",
+              "tamil_name": "பழைய இஞ்சி",
+              "icon": "ginger.svg",
+              "image_url": "assets/images/produce/ginger.svg",
+              "default_unit": "kg",
+              "display_order": 37,
+              "active": 1,
+              "price": "8400",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 38,
+              "slug": "lemon-kg",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Lemon (KG)",
+              "tamil_name": "எலுமிச்சம்பழம் (கிலோ)",
+              "icon": "lemon.svg",
+              "image_url": "assets/images/produce/lemon.svg",
+              "default_unit": "kg",
+              "display_order": 38,
+              "active": 1,
+              "price": "110",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 39,
+              "slug": "bitter-gourd-regular",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Bitter gourd (regular)",
+              "tamil_name": "பாகற்காய் (பெரியது)",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 39,
+              "active": 1,
+              "price": "40/50",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 40,
+              "slug": "bitter-gourd-small",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Bitter gourd (small)",
+              "tamil_name": "மிதி பாகற்காய் (சிறியது)",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 40,
+              "active": 1,
+              "price": "50/55",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 41,
+              "slug": "bottle-gourd",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Bottle gourd",
+              "tamil_name": "சுரைக்காய்",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 41,
+              "active": 1,
+              "price": "30/35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 42,
+              "slug": "baby-bottle-gourd",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Baby Bottle Gourd",
+              "tamil_name": "இளம் சுரைக்காய்",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 42,
+              "active": 1,
+              "price": "35/40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 43,
+              "slug": "chow-chow",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Chow chow",
+              "tamil_name": "சௌ சௌ",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 43,
+              "active": 1,
+              "price": "30",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 44,
+              "slug": "ivy-gourd",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ivy gourd",
+              "tamil_name": "கோவைக்காய்",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 44,
+              "active": 1,
+              "price": "35/30",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 45,
+              "slug": "ridge-gourd",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ridge gourd",
+              "tamil_name": "பீர்க்கங்காய்",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 45,
+              "active": 1,
+              "price": "40/35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 46,
+              "slug": "snake-gourd",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Snake gourd",
+              "tamil_name": "புடலங்காய்",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 46,
+              "active": 1,
+              "price": "35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 47,
+              "slug": "beetroot-yeldur",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beetroot (Yeldur)",
+              "tamil_name": "எல்தூர் பீட்ரூட்",
+              "icon": "beetroot.svg",
+              "image_url": "assets/images/produce/beetroot.svg",
+              "default_unit": "kg",
+              "display_order": 47,
+              "active": 1,
+              "price": "40/45",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 48,
+              "slug": "beetroot-ooty",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Beetroot (Ooty)",
+              "tamil_name": "ஊட்டி பீட்ரூட்",
+              "icon": "beetroot.svg",
+              "image_url": "assets/images/produce/beetroot.svg",
+              "default_unit": "kg",
+              "display_order": 48,
+              "active": 1,
+              "price": "80/85",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 49,
+              "slug": "carrot-ooty",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Carrot Ooty",
+              "tamil_name": "ஊட்டி கேரட்",
+              "icon": "carrot.svg",
+              "image_url": "assets/images/produce/carrot.svg",
+              "default_unit": "kg",
+              "display_order": 49,
+              "active": 1,
+              "price": "95",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 50,
+              "slug": "carrot-local",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Carrot (local)",
+              "tamil_name": "நாட்டு கேரட்",
+              "icon": "carrot.svg",
+              "image_url": "assets/images/produce/carrot.svg",
+              "default_unit": "kg",
+              "display_order": 50,
+              "active": 1,
+              "price": "60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 51,
+              "slug": "knol-khol",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Knol khol",
+              "tamil_name": "நூல்கோல்",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 51,
+              "active": 1,
+              "price": "25/30",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 52,
+              "slug": "radish",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Radish",
+              "tamil_name": "முள்ளங்கி",
+              "icon": "radish.svg",
+              "image_url": "assets/images/produce/radish.svg",
+              "default_unit": "kg",
+              "display_order": 52,
+              "active": 1,
+              "price": "500",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 53,
+              "slug": "aamla",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Aamla",
+              "tamil_name": "பெரிய நெல்லிக்காய்",
+              "icon": "lemon.svg",
+              "image_url": "assets/images/produce/lemon.svg",
+              "default_unit": "kg",
+              "display_order": 53,
+              "active": 1,
+              "price": "100",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 54,
+              "slug": "arvi",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Arvi",
+              "tamil_name": "சேப்பங்கிழங்கு",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "kg",
+              "display_order": 54,
+              "active": 1,
+              "price": "38",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 55,
+              "slug": "ash-gourd",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Ash gourd",
+              "tamil_name": "சாம்பல் பூசணிக்காய் / நீர் பூசணி",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 55,
+              "active": 1,
+              "price": "17",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 56,
+              "slug": "green-peas",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Green peas",
+              "tamil_name": "பச்சை பட்டாணி",
+              "icon": "peas.svg",
+              "image_url": "assets/images/produce/peas.svg",
+              "default_unit": "kg",
+              "display_order": 56,
+              "active": 1,
+              "price": "130",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 57,
+              "slug": "green-peas-kodaikanal",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Green peas (Kodaikanal)",
+              "tamil_name": "கொடைக்கானல் பட்டாணி",
+              "icon": "peas.svg",
+              "image_url": "assets/images/produce/peas.svg",
+              "default_unit": "kg",
+              "display_order": 57,
+              "active": 1,
+              "price": "",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 58,
+              "slug": "onion-sambar",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Onion (sambar)",
+              "tamil_name": "சாம்பார் சின்ன வெங்காயம்",
+              "icon": "sambar-onion.svg",
+              "image_url": "assets/images/produce/sambar-onion.svg",
+              "default_unit": "kg",
+              "display_order": 58,
+              "active": 1,
+              "price": "60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 59,
+              "slug": "onion-sambar-premium",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Onion Sambar - Premium",
+              "tamil_name": "சாம்பார் வெங்காயம் (பிரீமியம்)",
+              "icon": "sambar-onion.svg",
+              "image_url": "assets/images/produce/sambar-onion.svg",
+              "default_unit": "kg",
+              "display_order": 59,
+              "active": 1,
+              "price": "70",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 60,
+              "slug": "pumpkin-big",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Pumpkin (big)",
+              "tamil_name": "மஞ்சள் பூசணிக்காய்",
+              "icon": "pumpkin.svg",
+              "image_url": "assets/images/produce/pumpkin.svg",
+              "default_unit": "kg",
+              "display_order": 60,
+              "active": 1,
+              "price": "15",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 61,
+              "slug": "raw-banana-in-kg",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Raw banana (in kg)",
+              "tamil_name": "வாழைக்காய் (கிலோ)",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "kg",
+              "display_order": 61,
+              "active": 1,
+              "price": "50/60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 62,
+              "slug": "mango-totapuri",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Mango Totapuri",
+              "tamil_name": "தோத்தாபுரி மாங்காய்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 62,
+              "active": 1,
+              "price": "90",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 63,
+              "slug": "sweet-corn-kg",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Sweet corn (KG)",
+              "tamil_name": "மக்காச்சோளம் / ஸ்வீட் கார்ன்",
+              "icon": "corn.svg",
+              "image_url": "assets/images/produce/corn.svg",
+              "default_unit": "kg",
+              "display_order": 63,
+              "active": 1,
+              "price": "25",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 64,
+              "slug": "sweet-potato",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Sweet potato",
+              "tamil_name": "சர்க்கரைவள்ளிக்கிழங்கு",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "kg",
+              "display_order": 64,
+              "active": 1,
+              "price": "35/40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 65,
+              "slug": "tapioca",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Tapioca",
+              "tamil_name": "மரவள்ளிக்கிழங்கு",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "kg",
+              "display_order": 65,
+              "active": 1,
+              "price": "22/25",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 66,
+              "slug": "yam",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Yam",
+              "tamil_name": "சேனைக்கிழங்கு",
+              "icon": "potato.svg",
+              "image_url": "assets/images/produce/potato.svg",
+              "default_unit": "kg",
+              "display_order": 66,
+              "active": 1,
+              "price": "40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 67,
+              "slug": "cucumber-sambar",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Cucumber sambar",
+              "tamil_name": "சாம்பார் வெள்ளரி / மங்களூர் வெள்ளரி",
+              "icon": "cucumber.svg",
+              "image_url": "assets/images/produce/cucumber.svg",
+              "default_unit": "kg",
+              "display_order": 67,
+              "active": 1,
+              "price": "20",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 68,
+              "slug": "brinjal-bartabottle",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Brinjal barta/bottle",
+              "tamil_name": "பர்தா குண்டு கத்தரிக்காய்",
+              "icon": "brinjal.svg",
+              "image_url": "assets/images/produce/brinjal.svg",
+              "default_unit": "kg",
+              "display_order": 68,
+              "active": 1,
+              "price": "30/40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 69,
+              "slug": "curry-leaves-kg",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Curry Leaves (Kg)",
+              "tamil_name": "கறிவேப்பிலை (கிலோ)",
+              "icon": "curry-leaves.svg",
+              "image_url": "assets/images/produce/curry-leaves.svg",
+              "default_unit": "kg",
+              "display_order": 69,
+              "active": 1,
+              "price": "30/35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 70,
+              "slug": "drumstick-kg",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Drumstick (Kg)",
+              "tamil_name": "முருங்கைக்காய் (கிலோ)",
+              "icon": "drumstick.svg",
+              "image_url": "assets/images/produce/drumstick.svg",
+              "default_unit": "kg",
+              "display_order": 70,
+              "active": 1,
+              "price": "35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 71,
+              "slug": "parwal",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Parwal",
+              "tamil_name": "பர்வால் (கோவக்காய் வகை)",
+              "icon": "gourd.svg",
+              "image_url": "assets/images/produce/gourd.svg",
+              "default_unit": "kg",
+              "display_order": 71,
+              "active": 1,
+              "price": "55",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 72,
+              "slug": "banana-stem",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Banana stem",
+              "tamil_name": "வாழைத்தண்டு",
+              "icon": "drumstick.svg",
+              "image_url": "assets/images/produce/drumstick.svg",
+              "default_unit": "kg",
+              "display_order": 72,
+              "active": 1,
+              "price": "60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 73,
+              "slug": "banana-flower",
+              "category_id": 1,
+              "subcategory_id": 4,
+              "name": "Banana flower",
+              "tamil_name": "வாழைப்பூ",
+              "icon": "banana-flower.svg",
+              "image_url": "assets/images/produce/banana-flower.svg",
+              "default_unit": "kg",
+              "display_order": 73,
+              "active": 1,
+              "price": "15/kg",
+              "price_unit": "kg",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 1,
+          "name": "Greens (Keerai)",
+          "slug": "greens-keerai",
+          "icon": "🌿",
+          "display_order": 5,
+          "active": 1,
+          "products": [
+            {
+              "id": 74,
+              "slug": "agathi-keerai-bunch-200-250g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Agathi Keerai Bunch (200-250g)",
+              "tamil_name": "அகத்திக் கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 74,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 75,
+              "slug": "arai-keerai-bunch-250-300g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Arai Keerai - Bunch (250-300g)",
+              "tamil_name": "அரைக்கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 75,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 76,
+              "slug": "manatha-kali-keerai-bunch-250-300g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Manatha kali Keerai Bunch (250-300g)",
+              "tamil_name": "மணத்தக்காளி கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 76,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 77,
+              "slug": "mulai-keerai-bunch-250-300g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Mulai Keerai Bunch (250-300g)",
+              "tamil_name": "முளைக்கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 77,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 78,
+              "slug": "murungai-keerai-bunch-1-kattu",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Murungai Keerai - Bunch 1 kattu",
+              "tamil_name": "முருங்கைக்கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 78,
+              "active": 1,
+              "price": "40/50",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 79,
+              "slug": "ponna-ganni-keerai-bunch-250-300g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Ponna ganni Keerai Bunch (250-300g)",
+              "tamil_name": "பொன்னாங்கண்ணி கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 79,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 80,
+              "slug": "pulichi-gongura-bunch-200-250g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Pulichi (Gongura) Bunch (200-250g)",
+              "tamil_name": "புளிச்சக்கீரை / கோங்குரா கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 80,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 81,
+              "slug": "siru-keerai-bunch-250-300g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Siru Keerai - Bunch (250-300g)",
+              "tamil_name": "சிறுகீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 81,
+              "active": 1,
+              "price": "15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 82,
+              "slug": "palak-keerai-bunch-250-300g",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Palak Keerai - Bunch (250-300g)",
+              "tamil_name": "பாலக்கீரை கட்டு",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "bunch",
+              "display_order": 82,
+              "active": 1,
+              "price": "10/15",
+              "price_unit": "bunch",
+              "price_notes": ""
+            },
+            {
+              "id": 83,
+              "slug": "kothamalli-5-kg",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Kothamalli 5 kg",
+              "tamil_name": "கொத்தமல்லி (5 கிலோ)",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "5 kg",
+              "display_order": 83,
+              "active": 1,
+              "price": "30/200/150 per 5 kg",
+              "price_unit": "5 kg",
+              "price_notes": ""
+            },
+            {
+              "id": 84,
+              "slug": "pudina-5-kg",
+              "category_id": 1,
+              "subcategory_id": 5,
+              "name": "Pudina 5 kg",
+              "tamil_name": "புதினா (5 கிலோ)",
+              "icon": "keerai.svg",
+              "image_url": "assets/images/produce/keerai.svg",
+              "default_unit": "5 kg",
+              "display_order": 84,
+              "active": 1,
+              "price": "30/150 per 5 kg",
+              "price_unit": "5 kg",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 1,
+          "name": "Garlic",
+          "slug": "garlic",
+          "icon": "🧄",
+          "display_order": 6,
+          "active": 1,
+          "products": [
+            {
+              "id": 85,
+              "slug": "garlic-boom",
+              "category_id": 1,
+              "subcategory_id": 6,
+              "name": "Garlic Boom",
+              "tamil_name": "பூண்டு பூம் ரகம்",
+              "icon": "garlic.svg",
+              "image_url": "assets/images/produce/garlic.svg",
+              "default_unit": "kg",
+              "display_order": 85,
+              "active": 1,
+              "price": "250",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 86,
+              "slug": "garlic-big-a4",
+              "category_id": 1,
+              "subcategory_id": 6,
+              "name": "Garlic Big A4",
+              "tamil_name": "பூண்டு பெரிய A4",
+              "icon": "garlic.svg",
+              "image_url": "assets/images/produce/garlic.svg",
+              "default_unit": "kg",
+              "display_order": 86,
+              "active": 1,
+              "price": "220",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 87,
+              "slug": "garlic-md-a3",
+              "category_id": 1,
+              "subcategory_id": 6,
+              "name": "Garlic MD A3",
+              "tamil_name": "பூண்டு நடுத்தர A3",
+              "icon": "garlic.svg",
+              "image_url": "assets/images/produce/garlic.svg",
+              "default_unit": "kg",
+              "display_order": 87,
+              "active": 1,
+              "price": "210",
+              "price_unit": "kg",
+              "price_notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fruits",
+      "slug": "fruits",
+      "icon": "🍎",
+      "category_type": "fruit",
+      "display_order": 2,
+      "active": 1,
+      "subcategories": [
+        {
+          "id": 7,
+          "category_id": 2,
+          "name": "Banana",
+          "slug": "banana",
+          "icon": "🍌",
+          "display_order": 1,
+          "active": 1,
+          "products": [
+            {
+              "id": 88,
+              "slug": "banana-karpoora-valli",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana - Karpoora Valli",
+              "tamil_name": "கற்பூரவள்ளி வாழைப்பழம்",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "kg",
+              "display_order": 88,
+              "active": 1,
+              "price": "70",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 89,
+              "slug": "banana-nendram",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana Nendram",
+              "tamil_name": "நேந்திரன் பழம் / சிப்ஸ் வாழைப்பழம்",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "kg",
+              "display_order": 89,
+              "active": 1,
+              "price": "70/65",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 90,
+              "slug": "banana-pacha-bale-16-kg",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana Pacha Bale (16 kg)",
+              "tamil_name": "பச்சை வாழைப்பழம் (16 கிலோ பாக்ஸ்)",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "16 kg box",
+              "display_order": 90,
+              "active": 1,
+              "price": "550/600 (box)",
+              "price_unit": "16 kg box",
+              "price_notes": ""
+            },
+            {
+              "id": 91,
+              "slug": "banana-pachabale-crates-15kg",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana Pachabale Crates (15kg)",
+              "tamil_name": "பச்சை வாழைப்பழம் கிரேட் (15 கிலோ)",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "15 kg crate",
+              "display_order": 91,
+              "active": 1,
+              "price": "",
+              "price_unit": "15 kg crate",
+              "price_notes": ""
+            },
+            {
+              "id": 92,
+              "slug": "banana-poovan",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana Poovan",
+              "tamil_name": "பூவன் வாழைப்பழம்",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "kg",
+              "display_order": 92,
+              "active": 1,
+              "price": "45/50",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 93,
+              "slug": "banana-red-kg",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana Red (KG)",
+              "tamil_name": "செவ்வாழைப்பழம் (கிலோ)",
+              "icon": "red-banana.svg",
+              "image_url": "assets/images/produce/red-banana.svg",
+              "default_unit": "kg",
+              "display_order": 93,
+              "active": 1,
+              "price": "80/75",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 94,
+              "slug": "banana-yellaki",
+              "category_id": 2,
+              "subcategory_id": 7,
+              "name": "Banana Yellaki",
+              "tamil_name": "ஏலக்கி வாழைப்பழம்",
+              "icon": "banana.svg",
+              "image_url": "assets/images/produce/banana.svg",
+              "default_unit": "kg",
+              "display_order": 94,
+              "active": 1,
+              "price": "80/85",
+              "price_unit": "kg",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "category_id": 2,
+          "name": "Mango",
+          "slug": "mango",
+          "icon": "🥭",
+          "display_order": 2,
+          "active": 1,
+          "products": [
+            {
+              "id": 95,
+              "slug": "mango-banganapalle",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Banganapalle",
+              "tamil_name": "பங்கனபள்ளி மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 95,
+              "active": 1,
+              "price": "70/95",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 96,
+              "slug": "mango-sindhura",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Sindhura",
+              "tamil_name": "சிந்தூரா மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 96,
+              "active": 1,
+              "price": "",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 97,
+              "slug": "mango-jawadhu",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Jawadhu",
+              "tamil_name": "ஜவ்வாது மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 97,
+              "active": 1,
+              "price": "",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 98,
+              "slug": "mango-alphonso",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Alphonso",
+              "tamil_name": "அல்போன்சா மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 98,
+              "active": 1,
+              "price": "",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 99,
+              "slug": "mango-imampasand",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Imampasand",
+              "tamil_name": "இமாம்பசந்த் மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 99,
+              "active": 1,
+              "price": "",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 100,
+              "slug": "mango-rumani",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Rumani",
+              "tamil_name": "ருமானி மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 100,
+              "active": 1,
+              "price": "50/60",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 101,
+              "slug": "mango-neelam",
+              "category_id": 2,
+              "subcategory_id": 8,
+              "name": "Mango Neelam",
+              "tamil_name": "நீலம் மாம்பழம்",
+              "icon": "mango.svg",
+              "image_url": "assets/images/produce/mango.svg",
+              "default_unit": "kg",
+              "display_order": 101,
+              "active": 1,
+              "price": "70/80",
+              "price_unit": "kg",
+              "price_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 2,
+          "name": "Other Fruits",
+          "slug": "other-fruits",
+          "icon": "🍎",
+          "display_order": 3,
+          "active": 1,
+          "products": [
+            {
+              "id": 102,
+              "slug": "orange-nagour",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Orange Nagour",
+              "tamil_name": "நாக்பூர் ஆரஞ்சு",
+              "icon": "orange.svg",
+              "image_url": "assets/images/produce/orange.svg",
+              "default_unit": "kg",
+              "display_order": 102,
+              "active": 1,
+              "price": "Nill",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 103,
+              "slug": "chicco-sapota-box-12-kgs",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Chicco (Sapota) box (12 kgs)",
+              "tamil_name": "சப்போட்டா பழம் பாக்ஸ் (12 கிலோ)",
+              "icon": "sapota.svg",
+              "image_url": "assets/images/produce/sapota.svg",
+              "default_unit": "12 kg box",
+              "display_order": 103,
+              "active": 1,
+              "price": "600",
+              "price_unit": "12 kg box",
+              "price_notes": ""
+            },
+            {
+              "id": 104,
+              "slug": "custard-apple",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Custard Apple",
+              "tamil_name": "சீத்தாப்பழம் (20 கிலோ பாக்ஸ்)",
+              "icon": "custard-apple.svg",
+              "image_url": "assets/images/produce/custard-apple.svg",
+              "default_unit": "20 kg box",
+              "display_order": 104,
+              "active": 1,
+              "price": "1300 (20kg box)",
+              "price_unit": "20 kg box",
+              "price_notes": ""
+            },
+            {
+              "id": 105,
+              "slug": "guava",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Guava",
+              "tamil_name": "நாட்டு கொய்யாப்பழம்",
+              "icon": "guava.svg",
+              "image_url": "assets/images/produce/guava.svg",
+              "default_unit": "kg",
+              "display_order": 105,
+              "active": 1,
+              "price": "45/55",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 106,
+              "slug": "mosambi-juice-grade",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Mosambi (Juice grade)",
+              "tamil_name": "சாத்துக்குடி (ஜூஸ் ரகம்)",
+              "icon": "mosambi.svg",
+              "image_url": "assets/images/produce/mosambi.svg",
+              "default_unit": "kg",
+              "display_order": 106,
+              "active": 1,
+              "price": "70/75",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 107,
+              "slug": "mosambi-sweet-lime",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Mosambi (Sweet lime)",
+              "tamil_name": "சாத்துக்குடி (ஸ்வீட் லைம்)",
+              "icon": "mosambi.svg",
+              "image_url": "assets/images/produce/mosambi.svg",
+              "default_unit": "kg",
+              "display_order": 107,
+              "active": 1,
+              "price": "80/85",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 108,
+              "slug": "musk-melon-local",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Musk melon (local)",
+              "tamil_name": "நாட்டு முலாம்பழம் / கீரணிப்பழம்",
+              "icon": "melon.svg",
+              "image_url": "assets/images/produce/melon.svg",
+              "default_unit": "kg",
+              "display_order": 108,
+              "active": 1,
+              "price": "30/35",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 109,
+              "slug": "papaya-straight",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Papaya (straight)",
+              "tamil_name": "பப்பாளி பழம் (நீளம்)",
+              "icon": "papaya.svg",
+              "image_url": "assets/images/produce/papaya.svg",
+              "default_unit": "kg",
+              "display_order": 109,
+              "active": 1,
+              "price": "40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 110,
+              "slug": "papaya-round",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Papaya (round)",
+              "tamil_name": "பப்பாளி பழம் (குண்டு)",
+              "icon": "papaya.svg",
+              "image_url": "assets/images/produce/papaya.svg",
+              "default_unit": "kg",
+              "display_order": 110,
+              "active": 1,
+              "price": "40",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 111,
+              "slug": "pineapple",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Pineapple",
+              "tamil_name": "அன்னாசிப்பழம்",
+              "icon": "pineapple.svg",
+              "image_url": "assets/images/produce/pineapple.svg",
+              "default_unit": "kg",
+              "display_order": 111,
+              "active": 1,
+              "price": "62/67",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 112,
+              "slug": "watermelon-stripes",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Watermelon (stripes)",
+              "tamil_name": "வரி தர்பூசணி",
+              "icon": "watermelon.svg",
+              "image_url": "assets/images/produce/watermelon.svg",
+              "default_unit": "kg",
+              "display_order": 112,
+              "active": 1,
+              "price": "10/12",
+              "price_unit": "kg",
+              "price_notes": ""
+            },
+            {
+              "id": 113,
+              "slug": "watermelon-kiran",
+              "category_id": 2,
+              "subcategory_id": 9,
+              "name": "Watermelon Kiran",
+              "tamil_name": "கிரண் தர்பூசணி (கருப்பு)",
+              "icon": "watermelon.svg",
+              "image_url": "assets/images/produce/watermelon.svg",
+              "default_unit": "kg",
+              "display_order": 113,
+              "active": 1,
+              "price": "10/12",
+              "price_unit": "kg",
+              "price_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "prices": {
+    "2": {
+      "price": "550",
+      "unit": "crate",
+      "notes": ""
+    },
+    "3": {
+      "price": "400",
+      "unit": "crate",
+      "notes": ""
+    },
+    "4": {
+      "price": "750",
+      "unit": "crate",
+      "notes": ""
+    },
+    "5": {
+      "price": "1900/1950",
+      "unit": "50 kg",
+      "notes": ""
+    },
+    "6": {
+      "price": "1850/1800",
+      "unit": "50 kg",
+      "notes": ""
+    },
+    "7": {
+      "price": "1700/1750",
+      "unit": "50 kg",
+      "notes": ""
+    },
+    "8": {
+      "price": "17/16",
+      "unit": "kg",
+      "notes": ""
+    },
+    "9": {
+      "price": "22/24",
+      "unit": "40 kg",
+      "notes": ""
+    },
+    "10": {
+      "price": "32",
+      "unit": "kg",
+      "notes": ""
+    },
+    "11": {
+      "price": "600/500",
+      "unit": "kg",
+      "notes": ""
+    },
+    "12": {
+      "price": "180",
+      "unit": "piece",
+      "notes": ""
+    },
+    "13": {
+      "price": "200/220",
+      "unit": "piece",
+      "notes": ""
+    },
+    "14": {
+      "price": "50/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "15": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "16": {
+      "price": "25",
+      "unit": "kg",
+      "notes": ""
+    },
+    "17": {
+      "price": "40",
+      "unit": "tray",
+      "notes": ""
+    },
+    "18": {
+      "price": "65",
+      "unit": "kg",
+      "notes": ""
+    },
+    "19": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "20": {
+      "price": "40/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "21": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "22": {
+      "price": "90/80",
+      "unit": "kg",
+      "notes": ""
+    },
+    "23": {
+      "price": "60/55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "24": {
+      "price": "25/30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "25": {
+      "price": "",
+      "unit": "box",
+      "notes": ""
+    },
+    "26": {
+      "price": "35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "27": {
+      "price": "",
+      "unit": "box",
+      "notes": ""
+    },
+    "28": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "29": {
+      "price": "60/50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "30": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "31": {
+      "price": "60/65",
+      "unit": "kg",
+      "notes": ""
+    },
+    "32": {
+      "price": "50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "33": {
+      "price": "60",
+      "unit": "piece",
+      "notes": ""
+    },
+    "34": {
+      "price": "60",
+      "unit": "piece",
+      "notes": ""
+    },
+    "35": {
+      "price": "60",
+      "unit": "piece",
+      "notes": ""
+    },
+    "36": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "37": {
+      "price": "8400",
+      "unit": "kg",
+      "notes": ""
+    },
+    "38": {
+      "price": "110",
+      "unit": "kg",
+      "notes": ""
+    },
+    "39": {
+      "price": "40/50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "40": {
+      "price": "50/55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "41": {
+      "price": "30/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "42": {
+      "price": "35/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "43": {
+      "price": "30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "44": {
+      "price": "35/30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "45": {
+      "price": "40/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "46": {
+      "price": "35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "47": {
+      "price": "40/45",
+      "unit": "kg",
+      "notes": ""
+    },
+    "48": {
+      "price": "80/85",
+      "unit": "kg",
+      "notes": ""
+    },
+    "49": {
+      "price": "95",
+      "unit": "kg",
+      "notes": ""
+    },
+    "50": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "51": {
+      "price": "25/30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "52": {
+      "price": "500",
+      "unit": "kg",
+      "notes": ""
+    },
+    "53": {
+      "price": "100",
+      "unit": "kg",
+      "notes": ""
+    },
+    "54": {
+      "price": "38",
+      "unit": "kg",
+      "notes": ""
+    },
+    "55": {
+      "price": "17",
+      "unit": "kg",
+      "notes": ""
+    },
+    "56": {
+      "price": "130",
+      "unit": "kg",
+      "notes": ""
+    },
+    "57": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "58": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "59": {
+      "price": "70",
+      "unit": "kg",
+      "notes": ""
+    },
+    "60": {
+      "price": "15",
+      "unit": "kg",
+      "notes": ""
+    },
+    "61": {
+      "price": "50/60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "62": {
+      "price": "90",
+      "unit": "kg",
+      "notes": ""
+    },
+    "63": {
+      "price": "25",
+      "unit": "kg",
+      "notes": ""
+    },
+    "64": {
+      "price": "35/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "65": {
+      "price": "22/25",
+      "unit": "kg",
+      "notes": ""
+    },
+    "66": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "67": {
+      "price": "20",
+      "unit": "kg",
+      "notes": ""
+    },
+    "68": {
+      "price": "30/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "69": {
+      "price": "30/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "70": {
+      "price": "35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "71": {
+      "price": "55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "72": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "73": {
+      "price": "15/kg",
+      "unit": "kg",
+      "notes": ""
+    },
+    "74": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "75": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "76": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "77": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "78": {
+      "price": "40/50",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "79": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "80": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "81": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "82": {
+      "price": "10/15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "83": {
+      "price": "30/200/150 per 5 kg",
+      "unit": "5 kg",
+      "notes": ""
+    },
+    "84": {
+      "price": "30/150 per 5 kg",
+      "unit": "5 kg",
+      "notes": ""
+    },
+    "85": {
+      "price": "250",
+      "unit": "kg",
+      "notes": ""
+    },
+    "86": {
+      "price": "220",
+      "unit": "kg",
+      "notes": ""
+    },
+    "87": {
+      "price": "210",
+      "unit": "kg",
+      "notes": ""
+    },
+    "88": {
+      "price": "70",
+      "unit": "kg",
+      "notes": ""
+    },
+    "89": {
+      "price": "70/65",
+      "unit": "kg",
+      "notes": ""
+    },
+    "90": {
+      "price": "550/600 (box)",
+      "unit": "16 kg box",
+      "notes": ""
+    },
+    "91": {
+      "price": "",
+      "unit": "15 kg crate",
+      "notes": ""
+    },
+    "92": {
+      "price": "45/50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "93": {
+      "price": "80/75",
+      "unit": "kg",
+      "notes": ""
+    },
+    "94": {
+      "price": "80/85",
+      "unit": "kg",
+      "notes": ""
+    },
+    "95": {
+      "price": "70/95",
+      "unit": "kg",
+      "notes": ""
+    },
+    "96": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "97": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "98": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "99": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "100": {
+      "price": "50/60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "101": {
+      "price": "70/80",
+      "unit": "kg",
+      "notes": ""
+    },
+    "102": {
+      "price": "Nill",
+      "unit": "kg",
+      "notes": ""
+    },
+    "103": {
+      "price": "600",
+      "unit": "12 kg box",
+      "notes": ""
+    },
+    "104": {
+      "price": "1300 (20kg box)",
+      "unit": "20 kg box",
+      "notes": ""
+    },
+    "105": {
+      "price": "45/55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "106": {
+      "price": "70/75",
+      "unit": "kg",
+      "notes": ""
+    },
+    "107": {
+      "price": "80/85",
+      "unit": "kg",
+      "notes": ""
+    },
+    "108": {
+      "price": "30/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "109": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "110": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "111": {
+      "price": "62/67",
+      "unit": "kg",
+      "notes": ""
+    },
+    "112": {
+      "price": "10/12",
+      "unit": "kg",
+      "notes": ""
+    },
+    "113": {
+      "price": "10/12",
+      "unit": "kg",
+      "notes": ""
+    },
+    "tomato-local-big-crates": {
+      "price": "550",
+      "unit": "crate",
+      "notes": ""
+    },
+    "tomato-paper-mixed-size": {
+      "price": "400",
+      "unit": "crate",
+      "notes": ""
+    },
+    "tomato-hyd-standard-big": {
+      "price": "750",
+      "unit": "crate",
+      "notes": ""
+    },
+    "nashik-new-big-60": {
+      "price": "1900/1950",
+      "unit": "50 kg",
+      "notes": ""
+    },
+    "onion-nashik-new-50": {
+      "price": "1850/1800",
+      "unit": "50 kg",
+      "notes": ""
+    },
+    "onion-nashik-new-45": {
+      "price": "1700/1750",
+      "unit": "50 kg",
+      "notes": ""
+    },
+    "potato-agra": {
+      "price": "17/16",
+      "unit": "kg",
+      "notes": ""
+    },
+    "potato-jothi-40-kg-red": {
+      "price": "22/24",
+      "unit": "40 kg",
+      "notes": ""
+    },
+    "potato-hasan": {
+      "price": "32",
+      "unit": "kg",
+      "notes": ""
+    },
+    "cabbage-local": {
+      "price": "600/500",
+      "unit": "kg",
+      "notes": ""
+    },
+    "cauliflower-small": {
+      "price": "180",
+      "unit": "piece",
+      "notes": ""
+    },
+    "cauliflower-big": {
+      "price": "200/220",
+      "unit": "piece",
+      "notes": ""
+    },
+    "cucumber-indian": {
+      "price": "50/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "cucumber-english": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "ladies-finger": {
+      "price": "25",
+      "unit": "kg",
+      "notes": ""
+    },
+    "ladies-finger-tray": {
+      "price": "40",
+      "unit": "tray",
+      "notes": ""
+    },
+    "beans-avarakai": {
+      "price": "65",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beans-chikadi-kai": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beans-cluster": {
+      "price": "40/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beans-cow-pea": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beans-haricot": {
+      "price": "90/80",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beans-local": {
+      "price": "60/55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "brinjal-small-purple-stripes": {
+      "price": "25/30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "brinjal-small-purple-stripes-box": {
+      "price": "",
+      "unit": "box",
+      "notes": ""
+    },
+    "brinjal-ujjala": {
+      "price": "35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "brinjal-ujjala-box": {
+      "price": "",
+      "unit": "box",
+      "notes": ""
+    },
+    "capsicum-green": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "chilli-bajji": {
+      "price": "60/50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "chilli-long": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "chilli-v-kota": {
+      "price": "60/65",
+      "unit": "kg",
+      "notes": ""
+    },
+    "chilli-short": {
+      "price": "50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "coconut-medium-500600g": {
+      "price": "60",
+      "unit": "piece",
+      "notes": ""
+    },
+    "coconut-medium-400500g": {
+      "price": "60",
+      "unit": "piece",
+      "notes": ""
+    },
+    "coconut-medium-250g": {
+      "price": "60",
+      "unit": "piece",
+      "notes": ""
+    },
+    "ginger-new": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "ginger-old": {
+      "price": "8400",
+      "unit": "kg",
+      "notes": ""
+    },
+    "lemon-kg": {
+      "price": "110",
+      "unit": "kg",
+      "notes": ""
+    },
+    "bitter-gourd-regular": {
+      "price": "40/50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "bitter-gourd-small": {
+      "price": "50/55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "bottle-gourd": {
+      "price": "30/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "baby-bottle-gourd": {
+      "price": "35/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "chow-chow": {
+      "price": "30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "ivy-gourd": {
+      "price": "35/30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "ridge-gourd": {
+      "price": "40/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "snake-gourd": {
+      "price": "35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beetroot-yeldur": {
+      "price": "40/45",
+      "unit": "kg",
+      "notes": ""
+    },
+    "beetroot-ooty": {
+      "price": "80/85",
+      "unit": "kg",
+      "notes": ""
+    },
+    "carrot-ooty": {
+      "price": "95",
+      "unit": "kg",
+      "notes": ""
+    },
+    "carrot-local": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "knol-khol": {
+      "price": "25/30",
+      "unit": "kg",
+      "notes": ""
+    },
+    "radish": {
+      "price": "500",
+      "unit": "kg",
+      "notes": ""
+    },
+    "aamla": {
+      "price": "100",
+      "unit": "kg",
+      "notes": ""
+    },
+    "arvi": {
+      "price": "38",
+      "unit": "kg",
+      "notes": ""
+    },
+    "ash-gourd": {
+      "price": "17",
+      "unit": "kg",
+      "notes": ""
+    },
+    "green-peas": {
+      "price": "130",
+      "unit": "kg",
+      "notes": ""
+    },
+    "green-peas-kodaikanal": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "onion-sambar": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "onion-sambar-premium": {
+      "price": "70",
+      "unit": "kg",
+      "notes": ""
+    },
+    "pumpkin-big": {
+      "price": "15",
+      "unit": "kg",
+      "notes": ""
+    },
+    "raw-banana-in-kg": {
+      "price": "50/60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-totapuri": {
+      "price": "90",
+      "unit": "kg",
+      "notes": ""
+    },
+    "sweet-corn-kg": {
+      "price": "25",
+      "unit": "kg",
+      "notes": ""
+    },
+    "sweet-potato": {
+      "price": "35/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "tapioca": {
+      "price": "22/25",
+      "unit": "kg",
+      "notes": ""
+    },
+    "yam": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "cucumber-sambar": {
+      "price": "20",
+      "unit": "kg",
+      "notes": ""
+    },
+    "brinjal-bartabottle": {
+      "price": "30/40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "curry-leaves-kg": {
+      "price": "30/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "drumstick-kg": {
+      "price": "35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "parwal": {
+      "price": "55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-stem": {
+      "price": "60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-flower": {
+      "price": "15/kg",
+      "unit": "kg",
+      "notes": ""
+    },
+    "agathi-keerai-bunch-200-250g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "arai-keerai-bunch-250-300g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "manatha-kali-keerai-bunch-250-300g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "mulai-keerai-bunch-250-300g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "murungai-keerai-bunch-1-kattu": {
+      "price": "40/50",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "ponna-ganni-keerai-bunch-250-300g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "pulichi-gongura-bunch-200-250g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "siru-keerai-bunch-250-300g": {
+      "price": "15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "palak-keerai-bunch-250-300g": {
+      "price": "10/15",
+      "unit": "bunch",
+      "notes": ""
+    },
+    "kothamalli-5-kg": {
+      "price": "30/200/150 per 5 kg",
+      "unit": "5 kg",
+      "notes": ""
+    },
+    "pudina-5-kg": {
+      "price": "30/150 per 5 kg",
+      "unit": "5 kg",
+      "notes": ""
+    },
+    "garlic-boom": {
+      "price": "250",
+      "unit": "kg",
+      "notes": ""
+    },
+    "garlic-big-a4": {
+      "price": "220",
+      "unit": "kg",
+      "notes": ""
+    },
+    "garlic-md-a3": {
+      "price": "210",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-karpoora-valli": {
+      "price": "70",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-nendram": {
+      "price": "70/65",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-pacha-bale-16-kg": {
+      "price": "550/600 (box)",
+      "unit": "16 kg box",
+      "notes": ""
+    },
+    "banana-pachabale-crates-15kg": {
+      "price": "",
+      "unit": "15 kg crate",
+      "notes": ""
+    },
+    "banana-poovan": {
+      "price": "45/50",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-red-kg": {
+      "price": "80/75",
+      "unit": "kg",
+      "notes": ""
+    },
+    "banana-yellaki": {
+      "price": "80/85",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-banganapalle": {
+      "price": "70/95",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-sindhura": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-jawadhu": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-alphonso": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-imampasand": {
+      "price": "",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-rumani": {
+      "price": "50/60",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mango-neelam": {
+      "price": "70/80",
+      "unit": "kg",
+      "notes": ""
+    },
+    "orange-nagour": {
+      "price": "Nill",
+      "unit": "kg",
+      "notes": ""
+    },
+    "chicco-sapota-box-12-kgs": {
+      "price": "600",
+      "unit": "12 kg box",
+      "notes": ""
+    },
+    "custard-apple": {
+      "price": "1300 (20kg box)",
+      "unit": "20 kg box",
+      "notes": ""
+    },
+    "guava": {
+      "price": "45/55",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mosambi-juice-grade": {
+      "price": "70/75",
+      "unit": "kg",
+      "notes": ""
+    },
+    "mosambi-sweet-lime": {
+      "price": "80/85",
+      "unit": "kg",
+      "notes": ""
+    },
+    "musk-melon-local": {
+      "price": "30/35",
+      "unit": "kg",
+      "notes": ""
+    },
+    "papaya-straight": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "papaya-round": {
+      "price": "40",
+      "unit": "kg",
+      "notes": ""
+    },
+    "pineapple": {
+      "price": "62/67",
+      "unit": "kg",
+      "notes": ""
+    },
+    "watermelon-stripes": {
+      "price": "10/12",
+      "unit": "kg",
+      "notes": ""
+    },
+    "watermelon-kiran": {
+      "price": "10/12",
+      "unit": "kg",
+      "notes": ""
+    }
+  }
+}

@@ -22,6 +22,7 @@ export interface Subcategory {
 
 export interface Product {
   id: number;
+  slug?: string;
   category_id: number;
   subcategory_id: number | null;
   name: string;
