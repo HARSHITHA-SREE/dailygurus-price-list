@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 
 export const metadata: Metadata = {
   title: 'DailyGurus Price List - Daily Wholesale Price List for Vegetables & Fruits',
@@ -61,6 +62,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/style.css" />
       </head>
       <body>
+        <GoogleAnalytics />
         <Header />
         <main id="mainContent">{children}</main>
         <Footer />

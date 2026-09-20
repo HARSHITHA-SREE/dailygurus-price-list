@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { CategorizedData, Subcategory, ProductPriceItem, PriceStats, PriceDateInfo } from '@/lib/types';
 import { formatDateLong, formatDateShort, formatPriceString } from '@/lib/price-formatter';
 import { ProduceThumbnail } from '@/lib/produce-icons';
+import { trackEvent } from '@/lib/analytics';
 
 interface PriceListViewProps {
   initialData: CategorizedData;
@@ -69,12 +70,32 @@ export const PriceListView: React.FC<PriceListViewProps> = ({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  // Track search query with 800ms debounce
+  useEffect(() => {
+    const query = searchTerm.trim();
+    if (query.length < 2) return;
+
+    const timer = setTimeout(() => {
+      trackEvent('search', {
+        search_term: query,
+      });
+    }, 800);
+
+    return () => clearTimeout(timer);
+  }, [searchTerm]);
+
   // Toggle single accordion
   const toggleAccordion = (slug: string) => {
-    setOpenAccordions(prev => ({
-      ...prev,
-      [slug]: !prev[slug],
-    }));
+    setOpenAccordions(prev => {
+      const nextState = !prev[slug];
+      if (nextState) {
+        trackEvent('price_category_view', { category_name: slug });
+      }
+      return {
+        ...prev,
+        [slug]: nextState,
+      };
+    });
   };
 
   // Toggle all Vegetables
@@ -193,6 +214,7 @@ export const PriceListView: React.FC<PriceListViewProps> = ({
   const handlePillClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     e.preventDefault();
     setActiveCategory(targetId);
+    trackEvent('price_category_view', { category_name: targetId });
 
     // Make sure targeted accordion is open
     if (targetId.startsWith('accordion-')) {

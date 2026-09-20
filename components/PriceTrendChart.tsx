@@ -17,6 +17,7 @@ import {
 import { Line } from 'react-chartjs-2';
 import { TrendDataPoint, TrendProduct } from '@/lib/types';
 import { formatRupee } from '@/lib/price-parser';
+import { trackEvent } from '@/lib/analytics';
 
 // Register Chart.js components (tree-shaking)
 ChartJS.register(
@@ -167,6 +168,14 @@ export const PriceTrendChart: React.FC<PriceTrendChartProps> = ({
       url.searchParams.set('from', fromDate);
       url.searchParams.set('to', toDate);
       window.history.replaceState({}, '', url.toString());
+
+      // Track historical date range search
+      trackEvent('history_date_range', {
+        from_date: fromDate,
+        to_date: toDate,
+        product_id: selectedProductId,
+        product_name: json.product?.name || '',
+      });
     } catch (err) {
       console.error('Trend fetch error:', err);
       setFetchState('error');
@@ -183,6 +192,11 @@ export const PriceTrendChart: React.FC<PriceTrendChartProps> = ({
 
   // Quick range handlers
   const setQuickRange = (days: number | 'all') => {
+    const rangeLabel = days === 'all' ? 'All Time' : `${days} Days`;
+    trackEvent('history_quick_range', {
+      range: rangeLabel,
+    });
+
     if (days === 'all') {
       setFromDate(earliestDate);
       setToDate(latestDate);
@@ -502,7 +516,17 @@ export const PriceTrendChart: React.FC<PriceTrendChartProps> = ({
           <select
             id="trend-product"
             value={selectedProductId}
-            onChange={(e) => setSelectedProductId(e.target.value)}
+            onChange={(e) => {
+              const newId = e.target.value;
+              setSelectedProductId(newId);
+              if (newId) {
+                const prod = products.find(p => String(p.id) === newId);
+                trackEvent('history_product_selected', {
+                  product_id: newId,
+                  product_name: prod ? prod.name : '',
+                });
+              }
+            }}
             disabled={productsLoading}
             style={{
               width: '100%',

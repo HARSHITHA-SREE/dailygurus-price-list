@@ -172,6 +172,8 @@ export const Footer: React.FC = () => {
               &copy; {new Date().getFullYear()} <strong>DailyGurus Price List</strong>. All rights reserved. Daily Wholesale Price List for Vegetables & Fruits.
             </div>
             <div className="footer-bottom-links">
+              <Link href="/privacy">Privacy Policy</Link>
+              <span style={{ margin: '0 8px', opacity: 0.4 }}>&bull;</span>
               <Link href="/admin">Admin Portal</Link>
             </div>
           </div>
