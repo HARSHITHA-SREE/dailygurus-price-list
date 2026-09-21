@@ -169,3 +169,5 @@ SQLite Database (Stored securely outside document root)
 ## 📄 License
 
 Proprietary — Developed for **DailyGurus Wholesale Market Operations**.
+
+2026 - All Rights Reserved
